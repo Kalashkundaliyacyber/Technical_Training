@@ -3,19 +3,21 @@ public class rotate_number {
     public static void main(String[] args )
     {
         Scanner sc = new Scanner (System.in);
-        System.out.println("Enter a number ");
+        System.out.println("Enter a 4 digit number ");
         int num = sc.nextInt();
-        int i,temp,new_number ;
+        System.out.println("How many time u want to rotate ");
+        int rc = sc.nextInt();
+        //rotate count = rc
+        rotate_number(num, rc);
+    }
+     static void rotate_number(int num, int rc)
+    {
+        int value = rc%4;
+   
+        int x = num%(int)Math.pow(10, value); // last value 
+        int y = num/(int)Math.pow(10, value); // first value 
 
-        for (i =0 ;i<4;i++)
-        {
-        
-            if (r == 0)
-            {
-                temp = num %10;
-                num/=10;
-                new_number = temp *1000 + num;
-            }
-        }
+        int z = x*(int)Math.pow(10,4- value) + y; // total value 
+        System.out.println(z);
     }
 }
