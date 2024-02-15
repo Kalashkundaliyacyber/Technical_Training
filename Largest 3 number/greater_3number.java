@@ -1,5 +1,5 @@
 import java.util.*;
-public class greater_number_3number
+public class greater_3number
 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner (System.in);
@@ -8,7 +8,7 @@ public class greater_number_3number
         System.out.println("Enter 2nd  number ");
 		int b = sc.nextInt();
         System.out.println("Enter 3rd number ");
-		int c = sc.nextInt();30
+		int c = sc.nextInt();
 		if (a>b && a>c)
 		{
 		    System.out.println(a+" is greater number ");
