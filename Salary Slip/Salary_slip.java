@@ -1,8 +1,17 @@
 import java.util.*;
+import java.util.Date;
+import java.text.DateFormat;
 
 public class Salary_slip {
     public static void main(String[] args) {
         input();
+    }
+    static String Today_date()
+    {
+        Date d = new Date();
+
+        DateFormat df = DateFormat.getDateInstance(DateFormat.SHORT);
+        return df.p
     }
     static void input()
     {
@@ -62,6 +71,7 @@ public class Salary_slip {
     static void print(String name,int id, Double hra,Double ta, Double da, Double ma, Double pf, Double gs , Double tax , Double ns)
     {
         System.out.println("Welcome "+name);
+        System.out.println("Today Date " +Today_date());
         System.out.println("Your id   "+id);
         System.out.println("Your HRA  "+hra);
         System.out.println("Your TA   "+ta);
