@@ -23,6 +23,7 @@ public class rotate_number {
         int y = num/(int)Math.pow(10, value); // first value 
 
         int z = x*(int)Math.pow(10,length- value) + y; // total value 
+        System.out.println("Output: ");
         System.out.println(z);
 
 // using for loop 

@@ -7,6 +7,7 @@ public class Prime_number
 		int a = sc.nextInt();
 		int i;
 		int count = 0;
+		System.out.println("Output: ");
 	    for (i = 2 ; i<(a/2) ; i++ )
 	    {
 	        if (a%i == 0)

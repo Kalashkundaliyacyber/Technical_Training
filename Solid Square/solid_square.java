@@ -5,6 +5,7 @@ public class solid_square {
         System.out.println("Enter the number ");
         int n = sc.nextInt();
         int i =0 , j=0 ;
+        System.out.println("Output: ");
         for (i = 0 ; i<n;i++)
         {
             for (j=0;j<n;j++)

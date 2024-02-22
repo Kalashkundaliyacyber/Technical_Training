@@ -10,6 +10,7 @@ public class Greater4number {
 		int c = sc.nextInt();
         System.out.println("Enter 4th number ");
         int d = sc.nextInt();
+		System.out.println("Output: ");
 		if (a>b && a>c && a>d)
 		{
 		    System.out.println(a+" is greater number ");

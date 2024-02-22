@@ -14,6 +14,7 @@ public class Armstrong_number
             sum = sum + rem * rem * rem;
             temp = temp / 10;
         }
+        System.out.println("Output: ");
         if (sum == n)
             System.out.println(n + " is an Armstrong number");
         else

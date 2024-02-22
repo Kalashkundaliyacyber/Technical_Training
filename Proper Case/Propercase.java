@@ -15,6 +15,7 @@ public class Propercase {
 
             properName = properName + " " + firstChar + remainingName;
         }
+        System.out.println("Output: ");
        System.out.println(properName);
     }
 }

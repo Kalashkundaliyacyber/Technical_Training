@@ -18,6 +18,7 @@ public class Perterson_number {
             sum=sum+factor;
             n=n/10;
         }
+        
         if (sum == temp )
         {
             System.out.println(temp+" This is a peterson solution");

@@ -23,6 +23,7 @@ public class add_even_and_odd {
             }
             num/=10;
         }
+        System.out.println("Output: ");
         System.out.println("Even position sum " +even);
         System.out.println("odd position sum " +odd);
     }

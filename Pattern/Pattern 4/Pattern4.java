@@ -8,6 +8,7 @@ public class Pattern4 {
         int num = sc.nextInt();
         int i,j;
         int n = 2 * num - 2;
+        System.out.println("Output: ");
         for (i = num; i > 0; i--) {
             for (j = 0; j < num - i; j++) {
                 System.out.print(" ");

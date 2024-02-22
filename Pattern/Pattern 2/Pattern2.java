@@ -7,6 +7,7 @@ public class Pattern2 {
         System.out.println("Enter the number ");
         int num = sc.nextInt();
         int i, j;
+        System.out.println("Output: ");
         for (i = num; i >= 0; i--) {
             for (j = 1; j <= i; j++) {
                 System.out.print("*");
