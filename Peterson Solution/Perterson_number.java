@@ -20,11 +20,11 @@ public class Perterson_number {
         }
         if (sum == temp )
         {
-            System.out.println(temp+" This is a person solution");
+            System.out.println(temp+" This is a peterson solution");
         }
         else
         {
-            System.out.println(temp+" This is not  a person solution");
+            System.out.println(temp+" This is not  a peterson solution");
         }
     }
    
