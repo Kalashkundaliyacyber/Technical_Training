@@ -3,7 +3,7 @@ public class rotate_number {
     public static void main(String[] args )
     {
         Scanner sc = new Scanner (System.in);
-        System.out.println("Enter a 4 digit number ");
+        System.out.println("Enter  number ");
         int num = sc.nextInt();
         int length = String.valueOf(num).length();
         System.out.println("How many time u want to rotate ");
