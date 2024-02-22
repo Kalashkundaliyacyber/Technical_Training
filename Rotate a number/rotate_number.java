@@ -5,19 +5,24 @@ public class rotate_number {
         Scanner sc = new Scanner (System.in);
         System.out.println("Enter a 4 digit number ");
         int num = sc.nextInt();
+        int length = String.valueOf(num).length();
         System.out.println("How many time u want to rotate ");
         int rc = sc.nextInt();
         //rotate count = rc
-        rotate_number(num, rc);
+        if(rc<0)
+        {
+            rc+=length;
+        }
+        rotate(num, rc, length);
     }
-     static void rotate_number(int num, int rc)
+     static void rotate(int num, int rc , int length)
     {
-        int value = rc%4 ;
+        int value = rc%length ;
    
         int x = num%(int)Math.pow(10, value); // last value 
         int y = num/(int)Math.pow(10, value); // first value 
 
-        int z = x*(int)Math.pow(10,4- value) + y; // total value 
+        int z = x*(int)Math.pow(10,length- value) + y; // total value 
         System.out.println(z);
 
 // using for loop 
