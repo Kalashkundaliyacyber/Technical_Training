@@ -1,0 +1,11 @@
+Output
+10 It is a even number 
+9 It is a odd number 
+8 It is a even number 
+7 It is a odd number 
+6 It is a even number 
+5 It is a odd number 
+4 It is a even number 
+3 It is a odd number 
+2 It is a even number 
+1 It is a odd number 

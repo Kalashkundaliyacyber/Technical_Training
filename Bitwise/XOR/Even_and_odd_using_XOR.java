@@ -6,13 +6,14 @@ public class Even_and_odd_using_XOR {
         Scanner sc = new Scanner (System.in);
         System.out.println("Enter a number ");
         int num = sc.nextInt();
+        System.out.println("Output");
         if ((num^1) == (num+1))
         {
-            System.out.println("It is a even number ");
+            System.out.println(num+" is a even number ");
         }
         else 
         {
-            System.out.println("It is a odd number ");
+            System.out.println(num+" is a odd number ");
         }  
     }
 }
