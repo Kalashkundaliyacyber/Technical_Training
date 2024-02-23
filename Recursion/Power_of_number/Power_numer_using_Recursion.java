@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Power_numer_using_Recursion {
-    static int value (int num , int power)
+    static int power_of_value (int num , int power)
     {
         if (power ==0)
         {
@@ -9,7 +9,7 @@ public class Power_numer_using_Recursion {
         }
         else 
         {
-           return value(num, power-1)*num;
+           return power_of_value(num, power-1)*num;
         }
     }
     public static void main(String[] args) {
@@ -19,7 +19,7 @@ public class Power_numer_using_Recursion {
         System.out.println("Enter a power number  ");
         int power = sc.nextInt();
         System.out.println("Output");
-        System.out.println( value(num , power));
+        System.out.println( power_of_value(num , power));
     }
 
 }
